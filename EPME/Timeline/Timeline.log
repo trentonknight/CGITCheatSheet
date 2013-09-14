@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.7)  9 SEP 2013 06:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.7)  11 SEP 2013 07:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,18 +540,18 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
 )) (./Timeline.aux)
 \openout1 = `Timeline.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -645,31 +645,83 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<Flag_of_France.png, id=49, 903.375pt x 602.25pt>
+File: Flag_of_France.png Graphic file (type png)
+ <use Flag_of_France.png>
+Package pdftex.def Info: Flag_of_France.png used on input line 36.
+(pdftex.def)             Requested size: 90.34279pt x 60.22852pt.
+
+<Flag_of_the_United_Kingdom.png, id=51, 1204.5pt x 602.25pt>
+File: Flag_of_the_United_Kingdom.png Graphic file (type png)
+
+<use Flag_of_the_United_Kingdom.png>
+Package pdftex.def Info: Flag_of_the_United_Kingdom.png used on input line 38.
+(pdftex.def)             Requested size: 107.20567pt x 53.60283pt.
+
+<Flag_of_Mexico.png, id=52, 1405.25pt x 803.0pt>
+File: Flag_of_Mexico.png Graphic file (type png)
+ <use Flag_of_Mexico.png>
+Package pdftex.def Info: Flag_of_Mexico.png used on input line 40.
+(pdftex.def)             Requested size: 98.37755pt x 56.21574pt.
+
+<Confederate_Rebel_Flag.png, id=54, 953.5625pt x 602.25pt>
+File: Confederate_Rebel_Flag.png Graphic file (type png)
+
+<use Confederate_Rebel_Flag.png>
+Package pdftex.def Info: Confederate_Rebel_Flag.png used on input line 42.
+(pdftex.def)             Requested size: 95.36183pt x 60.22852pt.
+
+<Flag_of_the_United_States.png, id=55, 1239.63126pt x 652.4375pt>
+File: Flag_of_the_United_States.png Graphic file (type png)
+
+<use Flag_of_the_United_States.png>
+Package pdftex.def Info: Flag_of_the_United_States.png used on input line 44.
+(pdftex.def)             Requested size: 110.3325pt x 58.06973pt.
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
+
+Overfull \hbox (6.83354pt too wide) in paragraph at lines 74--75
+[] 
+ []
+
 [1
 
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Flag_
+of_France.png> <./Flag_of_the_United_Kingdom.png> <./Flag_of_Mexico.png> <./Con
+federate_Rebel_Flag.png> <./Flag_of_the_United_States.png>]
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ” in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ” in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+ [2
 
-] (./Timeline.aux) ) 
+]
+(./Timeline.aux) ) 
 Here is how much of TeX's memory you used:
- 13862 strings out of 493311
- 292787 string characters out of 6137857
- 392841 words of memory out of 5000000
- 17036 multiletter control sequences out of 15000+600000
+ 14155 strings out of 493311
+ 297929 string characters out of 6137857
+ 408232 words of memory out of 5000000
+ 17323 multiletter control sequences out of 15000+600000
  3939 words of font info for 15 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,6n,81p,430b,963s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr9.pfb>
-Output written on Timeline.pdf (2 pages, 41230 bytes).
+ 56i,7n,81p,419b,963s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr9.pfb>
+Output written on Timeline.pdf (2 pages, 209364 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 

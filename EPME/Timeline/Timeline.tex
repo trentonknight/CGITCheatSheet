@@ -1,6 +1,7 @@
 \documentclass[10pt,landscape]{report}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage{tikz}
+\usepackage{graphicx}
 \usepackage[landscape]{geometry}
 \newgeometry{margin=1cm}
 \usetikzlibrary{shapes,arrows,decorations.pathmorphing,shadows.blur,graphs,chains}
@@ -9,6 +10,9 @@ minimum height=2cm, text width=3cm, text centered, blur shadow={shadow blur step
 \tikzstyle{box1}=[rectangle, draw=black, rounded corners, fill=blue!80, drop shadow,
         text centered, anchor=north, text=white, text width=3cm, font=\small]
 \tikzstyle{point}=[rectangle, rounded corners=2pt, text width=3cm, minimum height=2cm, draw=black, fill=black!80, drop shadow, text=white, text centered, font=\small]
+\tikzstyle{box2}=[rectangle, draw=black, rounded corners, fill=blue!50!black!50, drop shadow,
+        text centered, anchor=north, text=white, text width=3cm, font=\small]
+\tikzstyle{point2}=[rectangle, rounded corners=2pt, text width=6cm, minimum height=1cm, draw=black, fill=black!80, drop shadow, text=white, text centered, font=\small]
 \begin{document}
 \begin{center}
 \end{center}
@@ -28,6 +32,17 @@ minimum height=2cm, text width=3cm, text centered, blur shadow={shadow blur step
 \node [b1, on chain=2] {Mexican-American War};
 \node [b1, on chain=2] {Civil War};
 \node [b1, on chain=2] {Civil War};
+\node (flag1)[drop shadow={shadow scale=0.94, top color=gray, opacity=0.5
+}] at (5.6,-8){\includegraphics[scale=0.1]{Flag_of_France.png}};
+\node (flag2)[drop shadow={shadow scale=0.94, top color=gray, opacity=0.5
+}] at (11.3,-16.5){\includegraphics[scale=0.089]{Flag_of_the_United_Kingdom.png}};
+\node (flag2)[drop shadow={shadow scale=0.94, top color=gray, opacity=0.5
+}] at (15,-11){\includegraphics[scale=0.07]{Flag_of_Mexico.png}};
+\node (flag2)[drop shadow={shadow scale=0.94, top color=gray, opacity=0.5
+}] at (22.5,-5){\includegraphics[scale=0.1]{Confederate_Rebel_Flag.png}};
+\node (flag2)[drop shadow={shadow scale=0.94, top color=gray, opacity=0.5
+}] at (22.5,-8){\includegraphics[scale=0.089]{Flag_of_the_United_States.png}};
+
 \node [point, on chain=3]at (3.8,-5) {The cutter Pickering captured 10 prizes, one of which carried 44 guns
 and 200 men, three times her own force.};
 \node [point, on chain=3]{The Eagle, recaptured the American vessels
@@ -64,7 +79,75 @@ War.
 \node [point, on chain=6] at (0,-5){Spain declared war on the U.S. on April 24, 1898, a consequence of our
 intervention in the Spain/Cuba crisis.
 };
-
+\node [point, on chain=going below]{On May 11, 1898 in Cardenas Bay, Cuba, the cutter Hudson and torpedo
+boat USS Winslow were engaged in battle with Spanish gunboats and
+shore batteries. With the massacre of Ensign Bagley, U.S. Navy, and the
+commanding officer and half the crew wounded, Hudson rescued the craft
+from destruction while under intense enemy fire.
+};
+\node [point, on chain=going below]{A peace treaty was signed in Paris, France on December 10, 1898. Once
+again, the Revenue Cutter Service provided important inshore support to
+the Navy.
+};
+\node [box1, on chain=4]{1917};
+\node [box1, on chain=4]{1939};
+\node [box1, on chain=4]{1941};
+\node [b1, on chain=5]{World War I};
+\node [b1, on chain=5]{World War II};
+\node [b1, on chain=5]{World War II};
+\node [point, on chain=6] at (1.6,-6.9) {After German submarines deliberately sank three American vessels, the
+U.S. entered World War I on April 2, 1917. The Coast Guard was again
+put into military service. This time, however, the entire Coast Guard—
+manpower, vessels, and units—was transferred to the Navy in April 1917
+to fight overseas.
+};
+\node [point, on chain=going below]{In August and September 1917, six Coast Guard cutters, Ossipee, Seneca,
+Yamacraw, Algonquin, Manning, and Tampa were deployed to Gibraltar,
+constituting Squadron 2 of Division 6 of the Atlantic Fleet’s patrol forces.
+The cutters escorted hundreds of convoys between Gibraltar and the
+British Isles, as well as performing escort and patrol duties in the
+Mediterranean.
+};
+\node [point, on chain=6] at (5.35,-5.5) {Following the outbreak of war in Europe in 1939, the Coast Guard began
+carrying out neutrality patrols on September 5, 1939. On June 22, 1940,
+port security began.
+};
+\node [box2, on chain=6] at (9.1, -3.9) {Submarine Patrol};
+\node [point, on chain=6] at (9.1, -6.5) {Coast Guard-manned ships sank 11 enemy submarines; Coast Guard
+aircraft are credited with sinking one enemy submarine.};
+\node [point, on chain=going below]{One of our first successful attacks involved the 165-foot cutter
+Icarus. Using depth charges, the Icarus forced the surfacing of a
+German submarine. With just a 3-inch deck gun, the submarine
+was forced to surrender.
+};
+\node [point, on chain=going below]{In early 1943, after a sharp gun battle, the cutter Campbell sank an
+enemy submarine by ramming it, causing severe damage to the
+Campbell. A small crew kept the ship afloat during the 600-mile
+tow to port.};
+\node [point, on chain=6] at (12.9, -5.9) {In the latter part of 1943, the cutter Spencer tracked a submarine
+through a convoy. This was accomplished with such skill that the
+action report became part of antisubmarine force policy.
+};
+\node [box2, on chain=going below]{Escort Service};
+\node [point, on chain=going below]{Coast Guard cutters and aircraft performed extensive convoy protection
+duties in the Atlantic arena. These craft are credited with sinking 12
+German U-boats.
+};
+\node [box2, on chain=6]at (16.7,-3.9){Transport Duty};
+\node [point, on chain=going below]{Coast Guard personnel manned over 350 ships and hundreds more
+amphibious type assault craft...from the largest troop transports to the
+smallest attack craft. These vessels landed Army and Marine forces in
+every major amphibious invasion in North Africa, Italy, France, and the
+Pacific. Amphibious operations in the Pacific theater alone engaged
+thousands of Coast Guardsmen in situations where small-boat experience
+was essential.
+};
+\node [point2, on chain=going below]{The Coast Guard’s only Medal of Honor recipient was posthumously
+awarded to Douglas Munro, for his extraordinary heroism, outstanding
+leadership, and gallantry actions. On September 27, 1942, Munro was
+instrumental in rescuing a group of marines near the Matanikau River.
+The initial landings were made on Guadalcanal in August 1942.
+};
 
 \end{tikzpicture}
 
