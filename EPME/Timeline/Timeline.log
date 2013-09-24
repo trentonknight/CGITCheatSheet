@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.7)  11 SEP 2013 07:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.14)  16 SEP 2013 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,13 +352,47 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 )))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/local/texlive/2013/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count109
+\calc@Bcount=\count110
+\calc@Adimen=\dimen150
+\calc@Bdimen=\dimen151
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count111
+\calc@Cskip=\skip48
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
+)))
+\wpXoffset=\skip49
+\wpYoffset=\skip50
+\tileXoffset=\skip51
+\tileYoffset=\skip52
+\tilewidth=\skip53
+\tileheight=\skip54
+\tileX=\skip55
+\tileY=\skip56
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
@@ -366,17 +400,17 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count109
-\Gm@cntv=\count110
-\c@Gm@tempcnt=\count111
-\Gm@bindingoffset=\dimen150
-\Gm@wd@mp=\dimen151
-\Gm@odd@mp=\dimen152
-\Gm@even@mp=\dimen153
-\Gm@layoutwidth=\dimen154
-\Gm@layoutheight=\dimen155
-\Gm@layouthoffset=\dimen156
-\Gm@layoutvoffset=\dimen157
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
 \Gm@dimlist=\toks26
 )
 *geometry* verbose mode - [ newgeometry ] result:
@@ -487,7 +521,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 code.tex
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen158
+\arrowsize=\dimen160
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.pathmorphing.code.tex
@@ -495,14 +529,14 @@ s/tikzlibrarydecorations.pathmorphing.code.tex
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen159
-\pgfdecoratedremainingdistance=\dimen160
-\pgfdecoratedinputsegmentcompleteddistance=\dimen161
-\pgfdecoratedinputsegmentremainingdistance=\dimen162
-\pgf@decorate@distancetomove=\dimen163
-\pgf@decorate@repeatstate=\count112
-\pgfdecorationsegmentamplitude=\dimen164
-\pgfdecorationsegmentlength=\dimen165
+\pgfdecoratedcompleteddistance=\dimen161
+\pgfdecoratedremainingdistance=\dimen162
+\pgfdecoratedinputsegmentcompleteddistance=\dimen163
+\pgfdecoratedinputsegmentremainingdistance=\dimen164
+\pgf@decorate@distancetomove=\dimen165
+\pgf@decorate@repeatstate=\count115
+\pgfdecorationsegmentamplitude=\dimen166
+\pgfdecorationsegmentlength=\dimen167
 )
 \tikz@lib@dec@box=\box55
 )
@@ -540,31 +574,31 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
 )) (./Timeline.aux)
 \openout1 = `Timeline.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen166
+\scratchcounter=\count116
+\scratchdimen=\dimen168
 \scratchbox=\box56
-\nofMPsegments=\count114
-\nofMParguments=\count115
+\nofMPsegments=\count117
+\nofMParguments=\count118
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen167
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen169
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks28
 ) ABD: EveryShipout initializing macros
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
@@ -611,6 +645,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\AtBeginShipoutBox=\box57
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -648,49 +684,54 @@ e
 <Flag_of_France.png, id=49, 903.375pt x 602.25pt>
 File: Flag_of_France.png Graphic file (type png)
  <use Flag_of_France.png>
-Package pdftex.def Info: Flag_of_France.png used on input line 36.
+Package pdftex.def Info: Flag_of_France.png used on input line 46.
 (pdftex.def)             Requested size: 90.34279pt x 60.22852pt.
 
 <Flag_of_the_United_Kingdom.png, id=51, 1204.5pt x 602.25pt>
 File: Flag_of_the_United_Kingdom.png Graphic file (type png)
 
 <use Flag_of_the_United_Kingdom.png>
-Package pdftex.def Info: Flag_of_the_United_Kingdom.png used on input line 38.
+Package pdftex.def Info: Flag_of_the_United_Kingdom.png used on input line 48.
 (pdftex.def)             Requested size: 107.20567pt x 53.60283pt.
 
 <Flag_of_Mexico.png, id=52, 1405.25pt x 803.0pt>
 File: Flag_of_Mexico.png Graphic file (type png)
  <use Flag_of_Mexico.png>
-Package pdftex.def Info: Flag_of_Mexico.png used on input line 40.
+Package pdftex.def Info: Flag_of_Mexico.png used on input line 50.
 (pdftex.def)             Requested size: 98.37755pt x 56.21574pt.
 
 <Confederate_Rebel_Flag.png, id=54, 953.5625pt x 602.25pt>
 File: Confederate_Rebel_Flag.png Graphic file (type png)
 
 <use Confederate_Rebel_Flag.png>
-Package pdftex.def Info: Confederate_Rebel_Flag.png used on input line 42.
+Package pdftex.def Info: Confederate_Rebel_Flag.png used on input line 52.
 (pdftex.def)             Requested size: 95.36183pt x 60.22852pt.
 
 <Flag_of_the_United_States.png, id=55, 1239.63126pt x 652.4375pt>
 File: Flag_of_the_United_States.png Graphic file (type png)
 
 <use Flag_of_the_United_States.png>
-Package pdftex.def Info: Flag_of_the_United_States.png used on input line 44.
+Package pdftex.def Info: Flag_of_the_United_States.png used on input line 54.
 (pdftex.def)             Requested size: 110.3325pt x 58.06973pt.
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
 
-Overfull \hbox (6.83354pt too wide) in paragraph at lines 74--75
-[] 
+Overfull \hbox (21.83354pt too wide) in paragraph at lines 84--85
+[][] 
  []
 
-[1
+<war.png, id=56, 86.724pt x 57.69556pt>
+File: war.png Graphic file (type png)
+ <use war.png>
+Package pdftex.def Info: war.png used on input line 85.
+(pdftex.def)             Requested size: 795.3018pt x 529.09668pt.
+ [1
 
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Flag_
-of_France.png> <./Flag_of_the_United_Kingdom.png> <./Flag_of_Mexico.png> <./Con
-federate_Rebel_Flag.png> <./Flag_of_the_United_States.png>]
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./war.p
+ng> <./Flag_of_France.png> <./Flag_of_the_United_Kingdom.png> <./Flag_of_Mexico
+.png> <./Confederate_Rebel_Flag.png> <./Flag_of_the_United_States.png>]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no î in font cmr9!
@@ -703,25 +744,110 @@ Missing character: There is no ô in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
+
+Overfull \hbox (10.23395pt too wide) in paragraph at lines 170--171
+[][] 
+ []
+
+File: war.png Graphic file (type png)
+<use war.png>
+Package pdftex.def Info: war.png used on input line 172.
+(pdftex.def)             Requested size: 795.3018pt x 529.09668pt.
  [2
 
 ]
-(./Timeline.aux) ) 
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+ <Treasury.png, id=128, 303.38344pt x 162.6075pt>
+File: Treasury.png Graphic file (type png)
+
+<use Treasury.png>
+Package pdftex.def Info: Treasury.png used on input line 199.
+(pdftex.def)             Requested size: 91.01573pt x 48.78262pt.
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+ <Flag_of_North_Korea.png, id=129, 321.2pt x 160.6pt>
+File: Flag_of_North_Korea.png Graphic file (type png)
+
+<use Flag_of_North_Korea.png>
+Package pdftex.def Info: Flag_of_North_Korea.png used on input line 213.
+(pdftex.def)             Requested size: 96.36073pt x 48.18036pt.
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+
+<Flag_of_Vietnam.png, id=130, 180.675pt x 120.45pt>
+File: Flag_of_Vietnam.png Graphic file (type png)
+ <use Flag_of_Vietnam.png>
+Package pdftex.def Info: Flag_of_Vietnam.png used on input line 220.
+(pdftex.def)             Requested size: 90.33727pt x 60.22484pt.
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+
+<Iraq.png, id=131, 180.675pt x 120.45pt>
+File: Iraq.png Graphic file (type png)
+ <use Iraq.png>
+Package pdftex.def Info: Iraq.png used on input line 228.
+(pdftex.def)             Requested size: 90.33727pt x 60.22484pt.
+
+Overfull \hbox (9.26305pt too wide) in paragraph at lines 241--242
+[][] 
+ []
+
+File: war.png Graphic file (type png)
+<use war.png>
+Package pdftex.def Info: war.png used on input line 242.
+(pdftex.def)             Requested size: 795.3018pt x 529.09668pt.
+ [3
+
+ <./Treasury.png> <./Flag_of_North_Korea.png> <./Flag_of_Vietnam.png> <./Iraq.p
+ng>]
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+File: war.png Graphic file (type png)
+ <use war.png>
+Package pdftex.def Info: war.png used on input line 254.
+(pdftex.def)             Requested size: 795.3018pt x 529.09668pt.
+ [4
+
+] (./Timeline.aux) ) 
 Here is how much of TeX's memory you used:
- 14155 strings out of 493311
- 297929 string characters out of 6137857
- 408232 words of memory out of 5000000
- 17323 multiletter control sequences out of 15000+600000
+ 15024 strings out of 493311
+ 312317 string characters out of 6137856
+ 425763 words of memory out of 5000000
+ 18170 multiletter control sequences out of 15000+600000
  3939 words of font info for 15 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,7n,81p,419b,963s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr9.pfb>
-Output written on Timeline.pdf (2 pages, 209364 bytes).
+ 56i,13n,81p,419b,968s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb>
+Output written on Timeline.pdf (4 pages, 407717 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 152 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 272 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 429 words of extra memory for PDF output out of 10000 (max. 10000000)
 
