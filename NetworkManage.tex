@@ -52,6 +52,12 @@ Erlang B & Blocked Calls Cleared & Users must redial until connected\\
 Erlang C & Blocked Calls Delayed & Call overflows to another Trunk\\
 Poisson & Blocked Calls Held & Call is placed in a holding circuit\\
 \end{tabular}
+\begin{tabular}{lll}
+Erlang B & BCC & Erlang B $\rightarrow$ C \\
+Erlang C & BCD & Erlang C $\rightarrow$ D \\
+Poisson & BCH & Poisson $\rightarrow$ PH\\
+\end{tabular}
+
 \end{center}
 \end{posterbox}
 
@@ -190,6 +196,8 @@ P(9,4.69)= 5\%
 \begin{center}
 \includegraphics{RJ-45_TIA-568A_Left.png}\includegraphics[scale=0.2]{pinpair.png}
 \end{center}
+\textbf{Mnemonic}
+Grass O Sky O Dirt A
 \end{posterbox}
 \begin{posterbox}[column=2,below=auto,textborder=rounded]{Color-coding of specific termination fields}
 \begin{center}
@@ -223,6 +231,8 @@ Frame & 2 & Data link & Physical addressing\\\hline
 Bit & 1 & Physical & binary transmission\\\hline
 \end{tabular}
 \end{center}
+\textbf{Mnemonic}\\
+The Physical Data Network Must Transport the Session Presentation to the Application.
 \end{posterbox}
 \begin{posterbox}[column=2,below=auto]{Communication Standards}
 \begin{description}
@@ -286,9 +296,8 @@ The Coast Guard primarily uses a UPS in one of three ways:
 \item[Group Two] blue, orange, green, brown, slate.
 \end{description}
 \begin{description}
-\item[Group One Mnemonic] Winchester Rifles Bring You Victory
-\item[Group Two Mnemonic] \color{blue} The sky is blue,\color{orange} the sun is orange,
-\item [] \color{green} the grass is green, \color{brown} the dirt is brown, \color{gray} and the slate is slate.
+\item[Group One Mnemonic] \colorbox{black}{\color{white}{Winchester}} \color{red}{Rifles} \color{black}{Bring} \colorbox{black}{\color{yellow}{You}} \color{purple}{Victory}
+\item[Group Two Mnemonic] \color{blue}{B}\color{orange}{O}\color{green}{G}\color{brown}~{Br}u\color{gray}{Sh}
 \end{description}
 \begin{center}
 \includegraphics[scale=0.5]{25_pair_color_code_chart.png}
